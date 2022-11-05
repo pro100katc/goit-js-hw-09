@@ -270,7 +270,7 @@
 .numInputWrapper input::-webkit-inner-spin-button,
 .numInputWrapper input::-webkit-outer-spin-button {
   margin: 0;
-  -webkit-appearance: none;
+  appearance: none;
 }
 
 .numInputWrapper span {
