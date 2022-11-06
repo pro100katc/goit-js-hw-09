@@ -1,21 +1,23 @@
 {
   "name": "goit-js-hw-09",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "goit-js-hw-09",
+  "homepage": "https://github.com/pro100katc/goit-js-hw-09/",
   "main": ".posthtmlrc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/*.html",
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pro100katc/goit-js-hw-09.git"
+    "url": "git+https://github.com/goitacademy/parcel-project-template/"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pro100katc/goit-js-hw-09/issues"
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
@@ -27,6 +29,5 @@
   "dependencies": {
     "flatpickr": "^4.6.13",
     "notiflix": "^3.2.5"
-  },
-  "homepage": "https://github.com/pro100katc/goit-js-hw-09.git"
+  }
 }
